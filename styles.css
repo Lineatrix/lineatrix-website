@@ -1,0 +1,70 @@
+/* styles.css */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(135deg, #2c3e50, #1a1a2e);
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3rem;
+}
+
+header p {
+    margin: 0.5rem 0 0;
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 20px;
+}
+
+.intro, .divisions {
+    margin-bottom: 3rem;
+}
+
+.intro {
+    text-align: center;
+}
+
+.division-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.division-item {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    min-width: 250px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    background: #2c3e50;
+    color: white;
+}
+
+footer a {
+    color: #6abfc3;
+    text-decoration: none;
+}
